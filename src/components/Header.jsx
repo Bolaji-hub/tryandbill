@@ -29,7 +29,7 @@ const Header = () => {
         TRYAN
         <img src={union} alt="" className="mb-2 w-[40px]" />
       </h1>
-      <ul className=" hidden md:flex cursor-pointer">
+      <ul className=" hidden md:flex cursor-pointer ml-10">
         {links.map(({ id, title }) => (
           <li
             key={id}
@@ -38,9 +38,11 @@ const Header = () => {
             <a href>{title}</a>
           </li>
         ))}
-        <div className="flex gap-2 ">
-          <button>Sign Up</button>
-          <button>Log In</button>
+        <div className="flex gap-5 ">
+          <button className="text-[#6d5b80] text-sm">Log In</button>
+          <button className="bg-[#382660] text-white px-6 rounded-xl text-sm font-bold">
+            Sign Up
+          </button>
         </div>
       </ul>
       <div
@@ -56,6 +58,8 @@ const Header = () => {
               <a href>{title}</a>
             </li>
           ))}
+          <button>Sign Up</button>
+          <button>Log in</button>
         </ul>
       )}
     </div>

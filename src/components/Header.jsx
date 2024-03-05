@@ -24,7 +24,7 @@ const links = [
 const Header = () => {
   const [nav, setNavBar] = useState(false);
   return (
-    <div className="container flex gap-2 justify-between items-center h-20 sticky top-0 w-full bg-white">
+    <div className="container flex gap-2 justify-between items-center h-20 z-10 sticky top-0 w-full bg-white">
       <h1 className="text-[#3C1C6C] text-3xl font-bold gap-2 cursor-pointer flex items-center hover:scale-105 duration-300">
         TRYAN
         <img src={union} alt="" className="mb-2 w-[40px]" />

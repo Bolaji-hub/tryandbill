@@ -17,10 +17,10 @@ const Privacy = () => {
           ut labore et dolore magna aliqua.
         </p>
       </div>
-      <div className="grid md:grid-cols-2">
+      <div className="ml-auto grid md:grid-cols-2">
         <img src={frame} alt="" className="md:block hidden" />
-        <div>
-          <img src={frame3} alt="" className="md:block hidden" />
+        <div className="">
+          <img src={frame3} alt="" className="md:block hidden mb-4" />
           <img src={frame2} alt="" />
         </div>
       </div>

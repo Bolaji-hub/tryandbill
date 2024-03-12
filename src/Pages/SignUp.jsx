@@ -11,11 +11,11 @@ const SignUp = () => {
     event.preventDefault();
   };
   return (
-    <div>
+    <div className="">
       <Header />
       <div className="relative">
         <Hero />
-        <div className="fixed inset-0 flex items-center justify-center">
+        <div className="fixed bg-black bg-opacity-50 inset-0 flex items-center justify-center">
           <div className="bg-white absolute max-w-lg py-10 px-20 rounded-lg">
             <h1 className="flex items-center justify-center text-3xl mb-3 text-[#454545] font-semibold">
               Get Started

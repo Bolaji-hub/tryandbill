@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Heads from "../components/Heads";
 
 const Airtime = () => {
   const [myNetwork, setMyNetwork] = useState("option1");
@@ -11,6 +12,7 @@ const Airtime = () => {
 
   return (
     <div className="container py-8 items-center justify-center">
+      <Heads />
       <h1 className="font-bold text-xl text-[#382660]">Buy Airtime</h1>
       <form className="flex flex-col py-10" action="">
         <label htmlFor="Network">
